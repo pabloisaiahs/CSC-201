@@ -1,3 +1,10 @@
+/*9.9 LAB: Parsing food data
+Given a text file containing the availability of food items, write a program that reads the information from the text file and outputs the available food items. 
+The program first reads the name of the text file from the user. The program then reads the text file, stores the information into four separate arrays, and outputs 
+the available food items in the following format: name (category) -- description
+
+Assume the text file contains the category, name, description, and availability of at least one food item, separated by a tab character.
+*/
 import java.util.Scanner;
 import java.io.FileInputStream;
 import java.io.IOException;
