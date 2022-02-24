@@ -1,7 +1,8 @@
-/*10.17 LAB: Book information (overriding member methods)
-Given main() and a base Book class, define a derived class called Encyclopedia. 
-Within the derived Encyclopedia class, define a printInfo() method that overrides the Book class' printInfo() method 
-by printing not only the title, author, publisher, and publication date, but also the edition and number of volumes.*/
+/*10.18 LAB: Plant information (ArrayList)
+Given a base Plant class and a derived Flower class, complete main() to create an ArrayList called myGarden. 
+The ArrayList should be able to store objects that belong to the Plant class or the Flower class. Create a method called printArrayList(), 
+that uses the printInfo() methods defined in the respective classes and prints each element in myGarden. The program should read plants or 
+flowers from input (ending with -1), add each Plant or Flower to the myGarden ArrayList, and output each element in myGarden using the printInfo() method.*/
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
