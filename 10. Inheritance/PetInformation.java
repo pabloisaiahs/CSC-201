@@ -1,3 +1,8 @@
+/*10.14 LAB: Pet information (derived classes)
+The base class Pet has protected fields petName, and petAge. The derived class Dog extends the Pet class and includes a private field for dogBreed. Complete main() to:
+
+create a generic pet and print information using printInfo().
+create a Dog pet, use printInfo() to print information, and add a statement to print the dog's breed using the getBreed() method.*/
 import java.util.Scanner;
 
 public class PetInformation {
