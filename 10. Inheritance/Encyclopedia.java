@@ -1,3 +1,7 @@
+/*10.17 LAB: Book information (overriding member methods)
+Given main() and a base Book class, define a derived class called Encyclopedia. Within the derived Encyclopedia class, 
+define a printInfo() method that overrides the Book class' printInfo() method by printing not only the title, author, 
+publisher, and publication date, but also the edition and number of volumes.*/
 public class Encyclopedia extends Book {
    // TODO: Declare private fields: edition, numVolumes
   private String edition;
