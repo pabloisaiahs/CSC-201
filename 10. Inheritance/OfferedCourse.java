@@ -1,3 +1,6 @@
+/*10.16 LAB: Course information (derived classes)
+Given main(), define a Course base class with methods to set and get the courseNumber and courseTitle. 
+Also define a derived class OfferedCourse with methods to set and get instructorName, term, and classTime.*/
 public class OfferedCourse extends Course {
    // TODO: Declare private fields - instructorName, term, classTime
    private String instructorName;
